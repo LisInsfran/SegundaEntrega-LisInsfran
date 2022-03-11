@@ -1,0 +1,355 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+h1{
+    margin: 0%;
+}
+.navbar-brand{
+    display: flex;
+    background-color: rgb(168,168,255);
+    height: 50px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+   background-color: rgb(168,168,255);
+}
+.navbar{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+.nav-item{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.carousel-inner{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+.content-acerca{
+    padding: 1rem;
+}
+.content-acerca h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(84, 80 , 81);
+}
+.content-acerca p{
+    font-size: 20px;
+    color:rgb(84, 80 , 81) ;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+
+.illus-acerca{
+    max-width: 40%;
+    align-self: center;
+}
+
+.contentDos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+.content-acercaDos{
+    padding: 1rem;
+}
+.content-acercaDos p{
+    font-size: 20px;
+    color:rgb(84, 80 , 81) ;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+.illus-acercaDos{
+    max-width: 40%;
+    align-self: center;
+}
+.contentTres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+.content-acercaTres{
+    padding: 1rem;
+}
+.content-acercaTres p{
+    font-size: 20px;
+    color:rgb(84, 80 , 81) ;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+.illus-acercaTres{
+    max-width: 40%;
+    align-self: center;
+}
+
+
+.redes-web{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(168,168,255);
+}
+
+.redes-web i{
+    font-size: 30px;
+    color: white;
+}
+
+.redes-web p{
+    list-style-type: none;
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+
+
+.tituloTour{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(84, 80 , 81);
+    margin-top: 2rem;
+}
+.table{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(84, 80 , 81);
+}
+
+.tituloContacto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(84, 80 , 81);
+    margin-top: 2rem;
+}
+.mb-3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(84, 80 , 81);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    margin-bottom: 2rem
+}
+
+.tituloDiscografia{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(84, 80 , 81);
+    margin-top: 2rem;
+}
+.tituloDiscografia1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: rgb(84, 80 , 81);
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.tituloGaleria{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(84, 80 , 81);
+    margin-top: 2rem;
+}
+.videoUno p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: rgb(84, 80 , 81);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+.imgUno{
+    margin-bottom: 2rem;
+}
+
+
+
+/*MEDIA Q*/
+
+@media screen and (max-width: 600px){
+
+    .titulo{
+        background-color: rgb(168,168,255);
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style-type: none;
+        font-size: 45px;
+        color: white;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    ul{
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+    }
+    .content{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .content-acerca{
+        padding: 1rem;
+    }
+    .content-acerca h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        color: rgb(84, 80 , 81);
+    }
+    .content-acerca p{
+        font-size: 20px;
+        color:rgb(84, 80 , 81) ;
+        padding: 10px;
+        text-align: justify;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .illus-acerca{
+        max-width: 100%;
+        align-self: center;
+        padding: 1fr;
+    }
+    
+    .contentDos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .content-acercaDos{
+        padding: 1rem;
+    }
+    .content-acercaDos p{
+        font-size: 20px;
+        color:rgb(84, 80 , 81) ;
+        padding: 10px;
+        text-align: justify;
+        font-family: 'Raleway', sans-serif;
+    }
+    .illus-acercaDos{
+        max-width: 100%;
+        align-self: center;
+        padding: 1fr;
+    }
+    .contentTres{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-acercaTres{
+        padding: 1rem;
+    }
+    .content-acercaTres p{
+        font-size: 20px;
+        color:rgb(84, 80 , 81) ;
+        margin-top: 20px;
+        padding: 10px;
+        text-align: justify;
+        font-family: 'Raleway', sans-serif;
+    }
+    .illus-acercaTres{
+        max-width: 100%;
+        align-self: center;
+        padding: 1fr;
+    }
+}
+
+.redes-web i{
+    font-size: 25px;
+    color: white;
+}
+.redes-web p{
+    list-style-type: none;
+    font-size: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/*GALERIA*/
+.vidUno{
+        max-width: 100%;
+        align-self: center;
+        padding: 1fr;
+}
+.vidDos{
+    max-width: 100%;
+    align-self: center;
+    padding: 1fr;
+}
